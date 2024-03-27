@@ -23,16 +23,21 @@ Now you will create a conversational flow using the RAG pattern, start by creati
 
 Select the **Multi-Round Q&A** on Your Data template after clicking the **Create** button.
 
-<img width="1041" alt="imae 1" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/8f7471a8-e311-4e10-9a91-ddd016dba748">
+<img width="900" alt="imae 1" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/8f7471a8-e311-4e10-9a91-ddd016dba748">
 
 
 Click on the **Clone** button. A flow with the following structure will be created.
 
-![alt text](image-3.png)
+<img width="571" alt="image 2" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/6383d387-8192-4406-9893-b7577e035229">
+
+
 
 Start the automatic runtime by selecting **Start** in the **Runtime** drop down. The runtime will be useful for you to work with the flow moving forward.
 
-![alt text](image-4.png)
+
+<img width="817" alt="image03" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/8c1e7ebd-b828-4b35-8444-a2a3c3935466">
+
+
 
 Click the **Save** button to save your flow.
 
