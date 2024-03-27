@@ -52,9 +52,10 @@ From the list of models, select gpt-4
 ![image](https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/988e4399-900e-4743-8f33-c4332506863d)
 
 
-On the next screen, define the name of the deployment, in this case, you can use the same name as the model and in the version field select the latest available version, in the example below we chose version 0125-Preview (gpt4-turbo).
+On the next screen, define the name of the deployment, in this case, you can use the same name as the model and in the version field select the latest available version, in the example below we chose version 1106-Preview (gpt4).
 
-![image](https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/1a9f3e5f-9ce0-4488-9e8b-085f12db1ae2)
+<img width="800" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/0c87cabc-4724-4c7b-8686-b0fda106d0c9">
+
 
 
 Click on Advanced Options and select at least 40K Tokens per Minute Rate Limit* to ensure the flows run smoothly/
