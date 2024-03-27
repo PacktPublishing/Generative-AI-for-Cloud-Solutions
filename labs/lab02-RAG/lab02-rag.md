@@ -173,3 +173,8 @@ And the Connection for the `chat_with_context node` with the gpt-4 deployment, a
 Everything is now set up for you to initiate your chat flow. Simply click on the blue **Chat** button located at the top right corner of your page to begin interacting with the flow.
 
 <img width="500" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/450bcf24-4aba-42e7-bdbd-5810c5546acb">
+
+
+### Summary
+
+In this lab you created a simple RAG Q&A workflow with Azure Prompt Flow, GPT-4 and Azure AI Search that extracted information from a pdf document which contained large amounts of unstructured data.
