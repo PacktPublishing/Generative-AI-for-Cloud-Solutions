@@ -5,7 +5,8 @@ Learn how to build rag-based prompt flow orchestrations for your Gen AI App.
 #### Prerequisites
 
 An Azure subscription where you can create an AI Hub Resource and a AI Search service.
-Apply for an Azure Open AI subscription - Request Access to Azure OpenAI Service (microsoft.com)
+
+Apply for an Azure Open AI subscription - [Request Access to Azure OpenAI Service (microsoft.com)](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUNTZBNzRKNlVQSFhZMU9aV09EVzYxWFdORCQlQCN0PWcu)
 
 #### Setup
 
@@ -15,47 +16,40 @@ Go to your browser and type: https://ai.azure.com
 After logging in with your Azure account, you will see the following screen:
 
 
-<img width="374" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/726aeab4-0f7b-4373-b209-ea2b79498307">
+<img width="800" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/726aeab4-0f7b-4373-b209-ea2b79498307">
 
 
 In the Build tab, select New AI project to create a project.
 Choose an unique name for your project.
 
-<image>
-
+<img width="900" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/3ee512c0-6a74-4721-ab79-2faad798fecf">
 
 Select the Create a new resource link and choose a name for your AI hub where your project resources will be created.
-
-<image>
 
 Note: Choose the region where the GPT-4 models and text-embeddings-ada-002 are available.
 Still on this screen, select the Create a new Azure AI Search option; this service will be used in the following lessons.
 
-<image>
-
 Finally, select Create a project for the creation of resources to be used in your project.
-
-<image>
    
-Deploy an Azure OpenAI model
+#### Deploy an Azure OpenAI model
+
 After creating your AI Project, the first step is to create a deployment of an OpenAI model so you can start experimenting with the prompts you will use in your application.
 To do this, access your newly created project in the Build tab of the AI Studio, select the Deployments option, and click on Create (Real-time endpoint).
 
+<img width="620" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/1ea8711f-38bb-41f9-94e8-39cdc07c620c">
 
-<image> 
-   
 From the list of models, select gpt-4
 
-<image>
+![image](https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/988e4399-900e-4743-8f33-c4332506863d)
+
 
 On the next screen, define the name of the deployment, in this case, you can use the same name as the model and in the version field select the latest available version, in the example below we chose version 0125-Preview (gpt4-turbo).
 
-<image>
+![image](https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/1a9f3e5f-9ce0-4488-9e8b-085f12db1ae2)
 
-Click on Advanced Options and select at least 40K Tokens per Minute Rate Limit* to ensure the flows run smoothly in the upcoming lessons.
+
+Click on Advanced Options and select at least 40K Tokens per Minute Rate Limit* to ensure the flows run smoothly/
 Now, just click on Deploy and your model deployment is created. You can now test it in the Playground.
-
-
 
 #### Lab Steps
 
