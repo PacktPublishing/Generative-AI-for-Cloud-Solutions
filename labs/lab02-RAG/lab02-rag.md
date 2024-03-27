@@ -1,6 +1,6 @@
 #### Building a RAG workflow on Azure Prompt Flow
 
-Learn how to build rag-based prompt flow orchestrations for your Gen AI App.
+Learn how to build rag-based prompt flow orchestrations for your Gen AI App.You will build a Q&A experience that will extract information based on your question from a large pdf document that contains heterogenous unstructured data.
 
 #### Prerequisites
 
