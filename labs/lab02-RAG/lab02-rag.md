@@ -26,10 +26,19 @@ Choose an unique name for your project.
 
 Select the Create a new resource link and choose a name for your AI hub where your project resources will be created.
 
+<img width="900" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/70401647-732d-4b6f-ad82-58143b246f78">
+
 Note: Choose the region where the GPT-4 models and text-embeddings-ada-002 are available.
 Still on this screen, select the Create a new Azure AI Search option; this service will be used in the following lessons.
 
+<img width="800" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/7e1a1453-6172-44a4-869e-43cd6c644e38">
+
 Finally, select Create a project for the creation of resources to be used in your project.
+
+<img width="800" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/c214dbc1-abf8-4406-a5bf-7221c9fd7abe">
+<img width="800" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/7f804228-a5ce-4fd2-97bd-ab802ea6f903">
+
+
    
 #### Deploy an Azure OpenAI model
 
