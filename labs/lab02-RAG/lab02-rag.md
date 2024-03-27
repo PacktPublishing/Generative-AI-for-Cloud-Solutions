@@ -69,7 +69,7 @@ During this lab, we will cover the following steps to create a conversational RA
 
 ##### Create a conversational RAG flow
 
-Now you will create a conversational flow using the RAG pattern, start by creating a new flow in the **Prompt Flow** item in the **Tools** section within the **Build** tab.
+Now you will create a conversational flow using the RAG pattern, start by creating a new flow in the **Prompt Flow** item in the **Tools** section within the **Build** tab. If you see a list of projects, select your project first and then go to Tools Section on the left.
 
 Select the **Multi-Round Q&A** on Your Data template after clicking the **Create** button.
 
@@ -91,8 +91,6 @@ Start the automatic runtime by selecting **Start** in the **Runtime** drop down.
 
 Click the **Save** button to save your flow.
 
-![LLMOps Workshop](images/13.03.2024_01.22.07_REC.png)
-
 ###### 1) Flow overview
 
 The first node, `modify_query_with_history`, produces a search query using the user's question and their previous interactions. Next, in the `lookup` node, the flow uses the vector index to conduct a search within a vector store, which is where the RAG pattern retrieval step takes place. Following the search process, the `generate_prompt_context` node consolidates the results into a string. This string then serves as input for the `Prompt_variants` node, which formulates various prompts. Finally, these prompts are used to generate the user's answer in the `chat_with_context` node.
@@ -105,25 +103,29 @@ The AI Search service was originally created in the **Setup** section of this la
 
 In our case, we will create a **Vector index**. To do this, you just need to go back to the project in the **AI Studio**, select the **Indexes** option, and then click on the **New index** button.  
    
-![LLMOps Workshop](images/07.02.2024_10.41.56_REC.png)
+![image](https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/342ab7d3-fc77-43dc-b1ab-4f77f4336858)
+
    
-At the `Source data` stage, select the `Upload files/folders` option and upload the PDF `files/surface-pro-4-user-guide-EN.pdf` to the data folder of this lab, as shown in the next screen.  
-   
-![LLMOps Workshop](images/07.02.2024_10.42.40_REC.png)
+At the `Source data` stage, select the `Upload files/folders` option and upload the PDF `files/surface-pro-4-user-guide-EN.pdf` to the data folder of this lab, as shown in the next screen.
+
+![image](https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/fe177a1e-8fc1-446a-a6b6-d46f7de26876)
+
    
 In `Index storage`, select the Search Service you created earlier.  
 
 > If someone has created the AI Search service for you, you can also use it to create the index. Simply select it in the **Select Azure AI Search service** option.
 
-![LLMOps Workshop](images/07.02.2024_10.56.42_REC.png)
+<img width="800" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/ac73488e-44c1-4d5e-a7e9-548ba7b80277">
+
    
 Under `Search settings`, select **Add vector search to this ...** as indicated in the following image.  
    
-![LLMOps Workshop](images/07.02.2024_10.57.15_REC.png)
-   
+![image](https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/8e3e8f82-01cc-4069-bdec-146862c8dc0f)
+
 In `Index settings`, keep the default options as indicated below.  
    
-![LLMOps Workshop](images/07.02.2024_16.39.01_REC.png)
+<img width="800" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/704d1845-88c1-42b2-8ce6-101255b41b29">
+
    
 > Note: If you want to select a virtual machine configuration, click on the **Select from recommended options**. If you don't select, the default configuration will use serverless processing.
 
