@@ -1,6 +1,6 @@
 #### Evaluating and Deploying RAG Workflow on Prompt Flow
 
-The purpose lab is to understand how we can evaluate RAG workflows against groundtruth data using metrics like similarity, groundedness and relevance povided on Prompt Flow.
+The purpose of this lab is to understand how we can evaluate RAG workflows against groundtruth data using metrics like similarity, groundedness and relevance povided on Prompt Flow.
 
 #### Prerequisites
 
