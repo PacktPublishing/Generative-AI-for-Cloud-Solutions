@@ -155,8 +155,22 @@ You can also select **Switch to dashboard view** to access a dashboard that prov
 
 ##### 2) Deploy the RAG flow to an online managed endpoint
 
-Open the **Multi-Round Q&A on Your Data** flow that you created in the previous lab.
+Open the **packt-rag-lab02** flow that you created in the previous lab.
 
-After opening the flow, follow the instructions indicated in this link:
+After opening the flow, click the deploy button on the top 
 
-https://learn.microsoft.com/en-us/azure/ai-studio/how-to/flow-deploy
+<img width="824" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/cf505c18-401b-4350-9bc6-90e6462face7">
+
+
+Click the **Create** button.
+
+<img width="726" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/e267f09d-f4a5-43d6-b6ce-6d508d7da8e4">
+
+Then go to the deployments section on the left side of your UI to find your online endpoint. Then test the endpoint. 
+
+## Summary
+In this lab, we evaluated the RAG workflow that we created in Lab02. We compared the outputs to the ground truth data using metrics like relevancy, similarity and groundednes. Then we deployed the RAG workflow on an online managed endpoint. 
+
+
+
+
