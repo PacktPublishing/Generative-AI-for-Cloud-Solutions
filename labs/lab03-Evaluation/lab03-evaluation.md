@@ -1,12 +1,9 @@
-#### Evaluating and Deploying LLMs
+#### Evaluating and Deploying RAG Workflow on Prompt Flow
 
 #### Prerequisites
 
-An Azure subscription where you can create an AI Hub Resource and a AI Search service.
+This is a continuation of Lab 2. So please finish the Lab steps in Lab 2.
 
-#### Setup
-
-If you are running this Lab after lesson 1, you don't need to worry about this step. Otherwise, follow **Setup** from **Lesson 1** to create a project and its associated resources in Azure AI Studio, as well as to deploy the GPT-4 model.
 
 #### Lab Steps
 
@@ -28,15 +25,16 @@ For the RAG flow that you created earlier to be evaluated, you must include addi
 
 This information will be used by the Evaluation Flow. To do this, just follow these steps:
 
-In the Flows section of **Prompt Flow**, open the `Multi-Round Q&A on Your Data` flow that you created in the previous lab. This will be the flow we use for evaluation.
+In the Flows section of **Prompt Flow**, open the `packt-rag-lab02` flow that you created in the previous lab. This will be the flow we use for evaluation.
 
-![LLMOps Workshop](images/26.02.2024_23.43.08_REC.png)
+<img width="769" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/3fe0fa64-a2b6-4878-821f-294ef60e9775">
 
 Create a new output named `documents` in the Outputs node. This output will represent the documents that were retrieved in the `lookup` node and subsequently formatted in the `generate_prompt_context` node.
 
 Assign the output of the `generate_prompt_context` node to the `documents` output, as shown in the image below.
 
-![LLMOps Workshop](images/07.02.2024_23.37.47_REC.png)
+<img width="800" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/3f2f39fa-e007-4461-a49f-319b0945c6b6">
+
 
 Click **Save** before moving to the next section.
 
@@ -44,23 +42,20 @@ Click **Save** before moving to the next section.
 
 Still in the **Prompt flow** item in the **Tools** section of the **Build** tab, click on the blue **Create** button.
 
-![LLMOps Workshop](images/05.01.2024_00.43.51_REC.png)
-
 Select the **Evaluation Flow** filter and click on **Clone** on the **QnA Groundedness Evaluation** card.
 
-![LLMOps Workshop](images/26.02.2024_23.14.59_REC.png)
+<img width="724" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/76909761-3a4e-4b94-8155-fbcf7e0b75f3">
 
 Click on the other **Clone** button to create a copy of the flow.
 
-![LLMOps Workshop](images/26.02.2024_23.18.12_REC.png)
-
 A flow will be created with the following structure:
 
-![LLMOps Workshop](images/26.02.2024_23.21.02_REC.png)
+![image](https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/a9b752c8-b495-4494-8ae6-5df4df2aa453)
 
 Update the `Connection` field to point to a gpt-4 deployment in `groundedness_score` node also update max_tokens to `1000` as shown in the next figure.  
    
-![LLMOps Workshop](images/26.02.2024_23.24.46_REC.png)
+![image](https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/c4071b3f-2886-4eb2-95f3-93f8a3602600)
+
 
 After updating the connection information, click on **Save** in the evaluation flow and navigate to the Flows section in **Prompt Flow** item.
 
@@ -72,67 +67,77 @@ Now, you will repeat the same steps described so far in this **section 1.2** to 
 
 QnA Relevance Evaluation:
 
-![LLMOps Workshop](images/14.03.2024_16.04.30_REC.png)
+![image](https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/4b962293-649b-45d2-b1b3-a60c4d3d8f57)
+
 
 
 QnA GPT Similarity Evaluation:
 
-![LLMOps Workshop](images/14.03.2024_16.05.01_REC.png)
+![image](https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/d61c245f-8b4c-46d6-ab2c-89a81825cd1d)
+
 
 
 ###### 1.3) Run the evaluation
 
-In the Flows section of **Prompt Flow**, open the `Multi-Round Q&A on Your Data` flow that you created in the previous lab. This will be the flow we use for evaluation.
+In the Flows section of **Prompt Flow**, open the `packt-rag-lab-02` flow that you created in the previous lab. This will be the flow we use for evaluation.
 
 Start the automatic runtime by selecting **Start** in the **Runtime** drop down. The runtime will be useful for you to work with the flow moving forward.
 
-![LLMOps Workshop](images/13.03.2024_10.31.21_REC.png)
+<img width="714" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/2c37d626-77de-4162-b83e-583a8f5fc7a0">
+
 
 Now select the **Custom evaluation** option in the Evaluate menu.
 
-![LLMOps Workshop](images/05.01.2024_01.31.10_REC.png)
+<img width="600" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/39054f2a-7dee-4620-807f-900843ae1ef0">
+
 
 In the `Prompt_variants` option, select the option to run only **two variants** to avoid reaching your GPT-4 model quota limit, as shown in the example image below.
 
-![LLMOps Workshop](images/15.03.2024_00.36.03_REC.png)
+<img width="721" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/cc6e40e8-4957-4716-a5f0-425c5d2ad113">
+
 
 Select **Add new data**.
 
-![LLMOps Workshop](images/26.02.2024_23.51.33_REC.png)
-
-Upload the file data.csv inside the lesson_03 folder.
-
-![LLMOps Workshop](images/26.02.2024_23.54.35_REC.png)
+Upload the file data.csv inside the lab_03 folder.
 
 After clicking on **Add**  proceed to map the input fields as shown below: 
 
-![LLMOps Workshop](images/05.01.2024_01.36.19_REC.png)
+<img width="722" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/1ac2de94-e00a-4ed8-bcc0-797e9a491965">
+
 
 Select the three evaluation flows you just created.
 
-![LLMOps Workshop](images/14.03.2024_22.29.58_REC.png)
+<img width="725" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/43f6f0c1-593b-436d-9f95-5eb4a29e7da5">
+
+
 
 Great job so far! Now, let's move on to the next step. Click on **Next** to set up the `question`, `context`, `ground_truth` and `answer` fields for each evaluation flow. You can see how to do this in the three images below. Please take a moment to ensure you've selected the correct value - it's crucial for accurate metric calculation. Keep up the good work!
 
 **QnA GPT Similarity Evaluation**
 
-![LLMOps Workshop](images/14.03.2024_23.08.34_REC.png)
+<img width="800" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/ae2bf6b5-e822-40df-a6c3-9128e2e85ef8">
+
 
 **QnA Groundedness Evaluation**
 
-![LLMOps Workshop](images/14.03.2024_23.11.52_REC.png)
+<img width="800" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/65c08ca4-31f7-4e2b-b411-5c8000715a63">
+
+
 
 **QnA Relevance Evaluation**
 
-![LLMOps Workshop](images/14.03.2024_23.12.25_REC.png)
+<img width="800" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/6c86daa0-208a-4127-909c-ab1d96d953d0">
+
 
 Click on **Submit** to start the evaluation.
 
-![LLMOps Workshop](images/05.01.2024_01.44.01_REC.png)
+<img width="710" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/74f6e001-f51d-4c25-ba6a-60f916908ac3">
+
 
 The evaluation process has started. To view all evaluations (one per variant), please navigate to the **Evaluation** section under the **Build** tab.
 
-![LLMOps Workshop](images/15.03.2024_00.52.20_REC.png)
+<img width="781" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/2e2f9a08-2e6c-4ddc-9985-5de2b4bb75c2">
+
 
 Upon selecting specific evaluation results, you will have the ability to view their detailed information.
 
@@ -140,11 +145,13 @@ You can also select **Switch to dashboard view** to access a dashboard that prov
 
 *Table comparison*
 
-![LLMOps Workshop](images/15.03.2024_01.28.00_REC.png)
+<img width="774" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/82802870-d11f-440d-83bf-21d046832d6f">
+
 
 *Chart comparison*
 
-![LLMOps Workshop](images/15.03.2024_01.21.34_REC.png)
+<img width="600" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/69f4af18-53a7-4aa5-946e-e86d3ab09ed8">
+
 
 ##### 2) Deploy the RAG flow to an online managed endpoint
 
