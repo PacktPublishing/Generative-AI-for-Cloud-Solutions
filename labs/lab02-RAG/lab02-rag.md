@@ -9,7 +9,53 @@ Apply for an Azure Open AI subscription - Request Access to Azure OpenAI Service
 
 #### Setup
 
-If you are running this Lab after lesson 1, you don't need to worry about this step. Otherwise, follow **Setup** from **Lesson 1** to create a project and its associated resources in Azure AI Studio, as well as to deploy the GPT-4 model.
+Create an AI Project and AI Hub Resouces
+Let's start by creating a project in AzureAI Studio.
+Go to your browser and type: https://ai.azure.com
+After logging in with your Azure account, you will see the following screen:
+
+
+<img width="374" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/726aeab4-0f7b-4373-b209-ea2b79498307">
+
+
+In the Build tab, select New AI project to create a project.
+Choose an unique name for your project.
+
+<image>
+
+
+Select the Create a new resource link and choose a name for your AI hub where your project resources will be created.
+
+<image>
+
+Note: Choose the region where the GPT-4 models and text-embeddings-ada-002 are available.
+Still on this screen, select the Create a new Azure AI Search option; this service will be used in the following lessons.
+
+<image>
+
+Finally, select Create a project for the creation of resources to be used in your project.
+
+<image>
+   
+Deploy an Azure OpenAI model
+After creating your AI Project, the first step is to create a deployment of an OpenAI model so you can start experimenting with the prompts you will use in your application.
+To do this, access your newly created project in the Build tab of the AI Studio, select the Deployments option, and click on Create (Real-time endpoint).
+
+
+<image> 
+   
+From the list of models, select gpt-4
+
+<image>
+
+On the next screen, define the name of the deployment, in this case, you can use the same name as the model and in the version field select the latest available version, in the example below we chose version 0125-Preview (gpt4-turbo).
+
+<image>
+
+Click on Advanced Options and select at least 40K Tokens per Minute Rate Limit* to ensure the flows run smoothly in the upcoming lessons.
+Now, just click on Deploy and your model deployment is created. You can now test it in the Playground.
+
+
 
 #### Lab Steps
 
