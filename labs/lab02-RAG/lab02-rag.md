@@ -137,25 +137,24 @@ It may take about 10 minutes from the time it enters the execution queue until i
    
 Wait until the index status is `Completed` as in the next image, before proceeding with the next steps.  
    
-![LLMOps Workshop](images/26.02.2024_10.29.13_REC.png)
+<img width="800" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/88098744-7eeb-40af-b109-495544cd2995">
+
 
 Done! You have created the index, as can be seen in the **Indexes** item of the **Components** section.
 
-![LLMOps Workshop](images/13.03.2024_10.47.56_REC.png)
+<img width="1127" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/25769b37-0c9a-4fc2-b4e7-dccd9bf5dac2">
+
 
 Now return to the RAG flow created in **Prompt flow** to configure the `lookup` node.
 
 After selecting the `lookup` node, click on `mlindex_content`.
 
-![LLMOps Workshop](images/26.02.2024_10.52.27_REC.png)
 
-A **Generate** window will appear. In this window, select the `Registered Index` option from the `index_type` field. Then, choose version 1 of the index you just created, as shown in the following image. After making these selections, click on **Save**.
-
-![LLMOps Workshop](images/13.03.2024_10.47.05_REC.png)
+A **Generate** window will appear. In this window, select the `Registered Index` option from the `index_type` field. Then, choose version 1 of the index you just created. After making these selections, click on **Save**.
 
 Now, let's go back to the `lookup` node. Select the `Hybrid (vector + keyword)` option from the query_type field, as shown in the subsequent image.
 
-![LLMOps Workshop](images/26.02.2024_10.36.22_REC.png)
+<img width="800" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/46a19098-42ec-486b-88bd-7130ec200a40">
 
 ###### 2.3) Updating connection information
 
@@ -163,14 +162,14 @@ Now you will need to update the Connections of the nodes that link with LLM mode
 
 Starting with the Connection in the `modify_query_with_history` node with the gpt-4 deployment, as indicated below:
 
-![LLMOps Workshop](images/07.02.2024_19.14.16_REC.png)
+![image](https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/57301370-0090-47f7-98ab-1dd397103f7c)
 
 And the Connection for the `chat_with_context node` with the gpt-4 deployment, as indicated below:
 
-![LLMOps Workshop](images/07.02.2024_19.15.13_REC.png)
+![image](https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/03f1b610-f7f7-4461-a039-f33cc320efa5)
 
 ###### 2.4) Testing your RAG flow
 
 Everything is now set up for you to initiate your chat flow. Simply click on the blue **Chat** button located at the top right corner of your page to begin interacting with the flow.
 
-![LLMOps Workshop](images/14.03.2024_15.00.08_REC.png)
+<img width="500" alt="image" src="https://github.com/PacktPublishing/Generative-AI-for-Cloud-Solutions/assets/12818726/450bcf24-4aba-42e7-bdbd-5810c5546acb">
