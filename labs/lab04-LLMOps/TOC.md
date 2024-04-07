@@ -16,7 +16,7 @@ Each lesson includes an **estimated time** that covers both the conceptual part 
    - Azure ML PromptFlow 
    - Azure Content Safety 
 
-### [Lesson 2](labs/lesson_02/lab02.md): Building LLMs Orchestration Flows
+### [Lesson 2](labs/lab04-LLMOps/lesson_02/lab02.md): Building LLMs Orchestration Flows
 *low-code. 1.5h duration* 
  - LLM App Orchestration. 
  - AzureML Prompt Flow Standard and Chat flows.
