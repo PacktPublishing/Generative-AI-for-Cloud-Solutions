@@ -2,7 +2,10 @@
 
 ## Table of Contents
 
-The workshop is composed of the lessons below. They are sorted by coding levels: **no-code** for beginners, **low-code** for intermediates, and **full-code** for advanced learners, indicating the coding effort needed. 
+The workshop is composed of the lessons below. They are sorted by coding levels, indicating the coding effort needed: 
+  **no-code** for beginners
+  **low-code** for intermediates
+  **full-code** for advanced learners
 
 Each lesson includes an **estimated time** that covers both the conceptual part and the execution of the labs. Please note that this is an estimate to assist with time planning and **may vary** slightly depending on the case.
 
