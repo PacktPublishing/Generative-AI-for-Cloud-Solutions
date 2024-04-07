@@ -6,7 +6,7 @@ The workshop is composed of the lessons below. They are sorted by coding levels:
 
 Each lesson includes an **estimated time** that covers both the conceptual part and the execution of the labs. Please note that this is an estimate to assist with time planning and **may vary** slightly depending on the case.
 
-### [Lesson 1](labs/lab04-LLMOps/lesson_01/lab01.md): Intro to LLMs and Azure AI Services
+### [Lesson 1](/lesson_01/lab01.md): Intro to LLMs and Azure AI Services
 *no-code. 1h duration* 
  - Introduction to LLMs: GPTs and other models. 
  - LLMOps: applying MLOps principles to LLM Solutions. 
