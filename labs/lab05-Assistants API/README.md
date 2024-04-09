@@ -1,7 +1,3 @@
-# API-in-a-Box
-
-![Banner](./banner-assistants-api-in-a-box.png)
-
 ## Use Case
 
 Imagine an assistant that helps you figure out your finances, retrieves useful info, and does special functions—all in one go! It's like giving your app a brain that keeps getting smarter!
