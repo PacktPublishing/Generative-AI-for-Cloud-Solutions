@@ -133,16 +133,9 @@ while True:
         time.sleep(5)
 ```
 
-## Sample Assistants - Jupyter notebooks
+## Sample Financial Assistant - Jupyter notebooks
 
-**Note:** Some Assistants in the notebooks folder have the ability to send emails and create appointments in Outlook. This functionality is achieved by using Function calling, which in turn triggers an HTTP Azure Logic App. The process of creating the Logic App is not covered in this guide. However, if you are interested in learning more about creating Azure Logic Apps, you can follow this [link](https://learn.microsoft.com/en-us/azure/connectors/connectors-create-api-office365-outlook?tabs=consumption).
-
-| Topic | Description |
-|----------------------|--------------------------------------------------|
-| [Math Tutor](math_tutor/assistant-math_tutor.ipynb) | Showcases the foundational concepts of Assistants such as Threads, Messages, Runs, Tools, and lifecycle management. |
 | [Financial Assistant](personal_finance/assistant-personal_finance.ipynb) | Function Calling with Yfinance to get latest stock prices. Summarization of user provided article. Extract country info from article, extract country, capital and other aspects, and call an API to get more information about each country. |
-| [Failed Banks](failed_banks/assistant-failed_banks.ipynb) | Using Assistant tools Code Interpreter and Function calling, this bot can get a CSV file, gather a list of failed banks by state, and generate a chart to visually represent the data. |
-| [Wind Farm](wind_farm/assistant-wind_farm.ipynb) | Utilizing Assistant tools such as the Code Interpreter and Function calling, this bot is capable of retrieving a CSV file that illustrates turbine wind speed, voltage, and the last maintenance date. It assists you in reviewing the file contents and aids in determining whether a specific turbine is in need of maintenance. |
 
 ## Prerequisites
 
@@ -165,4 +158,4 @@ OPENAI_GPT_DEPLOYMENT=<GPT_DEPLOYMENT_NAME>
 OPENAI_ADA_DEPLOYMENT=<ADA_DEPLOYMENT_NAME>
 ```
 
-- Open a Notebook and click play on the cells
+- Open the Notebook and click play on the cells
