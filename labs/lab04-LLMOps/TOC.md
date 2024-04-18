@@ -1,5 +1,6 @@
 # LLMOps Workshop
 
+##IMPORTANT: The first three lessons are a repeat of lab 2 and lab 3 and can be skipped 
 ## Table of Contents
 
 The workshop is composed of the lessons below. They are sorted by coding levels, indicating the coding effort needed: 
