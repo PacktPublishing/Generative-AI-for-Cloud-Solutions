@@ -17,7 +17,7 @@ This book covers the following exciting features:
 * Acquire insights into the app development frameworks and lifecycles of LLMs, including important aspects of LLMOps, autonomous agents, and Assistants APIs
 * Discover how to scale and secure GenAI systems, while understanding the principles of responsible AI
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/Generative-Cloud-Solutions-Architect-environments-ebook/dp/B0CL9BVKF5/ref=sr_1_1?crid=2PLCXJML5TNF3&dib=eyJ2IjoiMSJ9.-A1xdFAOgA1tbXpO39-8hwcgGfuj-g38E_hnPXrEQ_Ybq_Oon3y4B1rKHQfJLLqxEmDNeX9i9z3xwuo5DieNIhhoj_5wEPUt-aQQ_Zv4Ouf9Wzb6wuUdF2VY2ODSamnWCmoDEpOoVKRvdQwYR_ywXXoULj5ooYbEV-VtchpC355YgefvXvoBEK-a9siik7-OXLVMYYNovMpRTqPlPKG-CI5c5z0Fv0B2kE3XcJKSkpk.ycPwLdFT6GIgrvYNZvpviKHhsgFoSkn9HarZ3EO0Sp8&dib_tag=se&keywords=Generative+AI+for+Cloud+Solutions&qid=1712724319&sprefix=generative+ai+for+cloud+solutions%2Caps%2C303&sr=8-1) today!
+If you feel this book is for you, get your [copy](https://www.amazon.com/Generative-Cloud-Solutions-Architect-environments/dp/1835084788/ref=sr_1_1?dib=eyJ2IjoiMSJ9.-A1xdFAOgA1tbXpO39-8hwcgGfuj-g38E_hnPXrEQ_Ybq_Oon3y4B1rKHQfJLLqxEmDNeX9i9z3xwuo5DieNIsuWy057ycD6LST30rIuXbS3Q6SQgpEOzXmCnDfVG4SaV0N9C3dHRR49Mx4ORFGrAJ5dYeazXqvEup1CKSEHxf8b1PIO8b-g2CxIZcJI2L4l_RmamwJfp2ZOZD65jJ1ItrNtwAZ7oQPHKvKFVFWfBX8.gvYl9cpIOktECqpzgy6pvkMwDkTJkDmApbORbZzgozo&dib_tag=se&keywords=Generative+AI+for+Cloud+Solutions&qid=1713418664&sr=8-1) today!
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
 ## Instructions and Navigations
@@ -48,7 +48,7 @@ With the following software and hardware list you can run all labs present on th
 
 * Building AI Applications with ChatGPT APIs [[Packt]](https://www.packtpub.com/product/building-ai-applications-with-chatgpt-apis/9781805127567) [[Amazon]](https://www.amazon.com/Building-Applications-ChatGPT-APIs-DALL/dp/180512756X/ref=sr_1_1?crid=3JY42OYWE8MQC&dib=eyJ2IjoiMSJ9.SJP3cZoIwjaUNq1v-QkolGx4cAi742ZCeZfeacGJD6yx2DrhBxIgvlhbWkJNY4ijffStzMIC4DkBtdBszW00LyKmoMQ4VUU1yYFc8fb4A2PlGJO8y8lALeG6oeLHKsHqz-6XWgk5pVTY4XtszGNY8bjPb0To9FBiCJXtD1GwuPGPf5SjZplaB6UYF5OhwbhMm7WZY2IkY3cOOme4HQLiNsnor-tVzRZBP7yYTreF8Xg.EwigXI2gvNqGzwh1dcAl9gJ_7wUcVPu8qenoKAGS7LQ&dib_tag=se&keywords=Building+AI+Applications+with+ChatGPT+APIs&qid=1712726497&sprefix=building+ai+applications+with+chatgpt+apis%2Caps%2C319&sr=8-1)
 
-## Get to Know the Author
+## Get to Know the Authors
 **Paul Singh**
  is currently a Principal Cloud Solution Architect (CSA), working at Microsoft for over 10 years. Having been selected as the very first ten CSA&rsquo;s the role was first created, Paul helped shape the role ever since, including being on the national hiring committee(s) as well as helping create the very first Azure Architecture Exam. Paul has earned many honors and awards along the way, while also gaining over 30 different technical certifications, and helping some of the largest Cloud customers with complex scenarios and solutions.
 
